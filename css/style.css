@@ -1,0 +1,177 @@
+:root{
+    --header-gradient:linear-gradient(#e1f7f0, #68ddb6);
+    --color-main:  #007566;
+    --secondary-color:#68ddb6;
+    --box1-color:#68c0b1;
+    --box2-color:#cefff7;
+    --box3-color:#ffffff00;
+    --background-main:rgb(240, 255, 255);
+    --link-hover:black;
+    --link-color:#051a1a;
+    --text-color:#004e4e;
+    --text-color2:#002424;
+    --gradient-main: linear-gradient(90deg, rgba(240, 255, 255, 1) 0%, rgba(173, 237, 199, 1) 70%, rgba(237, 221, 83, 0) 100%)
+
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 100px;
+}
+section[id]{
+    scroll-margin-top: 100px !important;
+}
+img{
+    box-shadow: 5px 5px var(--color-main);
+    border: 2px solid var(--color-main);
+}
+.imagem1{
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px;
+    object-fit: cover;
+}
+body{
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    background-color:var(--background-main) ; 
+    font-family: 'IBM Plex Serif';
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    background: var(--header-gradient);
+    flex-direction: column;
+    padding: 5px 0px;
+    color: var(--color-main);
+}
+footer{
+    background-color: var(--secondary-color);
+    padding: 1px 0px;
+
+}
+.menu{
+    border-top: 2px solid var(--color-main);
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    padding: 5px 0px;
+    
+    
+}
+li{
+    text-align: left;
+}
+ul{
+    list-style-type:none;
+}
+nav{
+    display: flex;
+    gap: 25px;
+}
+
+a{
+    text-decoration:none;
+    color: var(--link-color);
+    font-weight: 400;
+    box-shadow: inset var(--color-main);
+    border-radius: 5px;
+    padding: 0px 2px;
+    margin: 0px 2px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+a:hover{
+    color: var(--box2-color);
+    box-shadow: inset 200px 0 0 0 var(--color-main);
+    border-radius: 5px;
+}
+
+.box{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color:var(--box1-color);
+    box-shadow: 10px 10px var(--color-main);
+    gap: 80px;
+    width: 50%;
+    height: 60%;
+    padding: 20px 20px;
+    border-radius: 5px;
+    margin: 140px auto;
+    margin-top: 10px;
+    
+    font-size: 20px;
+    color: var(--text2-color);
+    
+}
+.box2{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: var(--box2-color);
+    box-shadow: 10px 10px var(--color-main);
+    width: 70%;
+    height: 60%;
+    padding: 20px 20px;
+    border: 2px solid var(--color-main);
+    border-radius: 5px;
+    margin: 140px auto;
+    margin-top: 10px;
+    
+    color: var(--text-color);
+    font-size: 20px;
+    
+
+}
+
+.box3{
+    position: relative;
+    text-align: left;
+    background-color: var(--box3-color);
+    box-shadow: 10px 10px var(--color-main);
+    color: var(--text-color);
+    width: 15%;
+    height: 60%;
+    left: 500px;
+    border-radius: 5px;
+    text-align: left;
+}
+.box4{
+    position: relative;
+    text-align: left;
+    background-color: var(--box3-color);
+    box-shadow: 10px 10px var(--color-main);
+    color: var(--text-color);
+    width: 19%;
+    height: 60%;
+    left: 400px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+
+#problema{
+    display: flex;
+}
+#tecnologia{
+    display: flex;
+}
+
+#objetivos{
+    display: flex;
+}
+
+#publico{
+    display: flex;
+}
+#beneficios{
+    display: flex;
+}
+
+#dia-a-dia{
+    display: flex;
+}
