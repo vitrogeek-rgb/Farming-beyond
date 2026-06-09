@@ -240,7 +240,7 @@ a:hover{
     display: none;
 }
 .slide{
-    width: 25%;
+    width: 25%;-
     position: relative;
     transition: 2s;
 
